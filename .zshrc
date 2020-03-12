@@ -71,7 +71,7 @@ ZSH_THEME="ys"
 #
 alias aria='aria2c --conf-path=/home/lwl/.aria2/aria2.conf' 
 alias update='sudo pacman -Syu'
-#
+alias killp="func() { ps -a|pgrep $1| xargs kill -9}; func"
 #
 #
 plugins=(
